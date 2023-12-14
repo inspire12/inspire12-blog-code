@@ -1,0 +1,13 @@
+server:
+  servlet:
+    session:
+      timeout: 1000
+  tomcat:
+    connection-timeout: 1000
+    keep-alive-timeout: 1000
+
+spring:
+  thread-executor: virtual
+  threads:
+    virtual:
+      enabled: true
